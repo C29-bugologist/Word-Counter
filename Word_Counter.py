@@ -1,0 +1,5 @@
+Input = input("Enter a Sentence to count the number of words \n Instruction \n 1. Numbers can be uppercase or lowercase \n 2. A phrase will only be considered a word if seprated by ' '(space) \n 3. Words conected by characters (@,-,_,#,) will be considered one\n")
+words = Input.split(" ")
+number = len(words)
+print("Numbers of words are ")
+print(number)
